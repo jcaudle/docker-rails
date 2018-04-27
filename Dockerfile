@@ -1,4 +1,5 @@
 FROM ruby:2.4
+LABEL maintainer="joseph@josephcaudle.com"
 
 RUN apt-get update -yqq
 RUN apt-get install -yqq --no-install-recommends nodejs
