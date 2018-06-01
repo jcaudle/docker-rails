@@ -41,6 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.6'
   gem 'capybara', '~> 2.18'
+  gem 'selenium-webdriver', '~> 3.7'
 end
 
 group :development do
