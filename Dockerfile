@@ -14,6 +14,4 @@ RUN bundle install
 
 COPY . /usr/src/app/
 
-RUN bundle add factory_bot --version '~> 4.8.2' --group 'test'
-
 CMD [ "rails", "s", "-b", "0.0.0.0" ]
